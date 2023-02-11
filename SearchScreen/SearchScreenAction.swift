@@ -6,3 +6,8 @@
 //
 
 import Foundation
+enum AppAction {
+    case setSearchResults(repos: [UserList])
+    case search(query: String)
+    case activateSpinner(status: Bool)
+}

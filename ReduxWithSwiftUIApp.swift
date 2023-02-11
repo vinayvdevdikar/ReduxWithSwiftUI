@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct ReduxWithSwiftUIApp: App {
+    let store = AppStore(initialState: .init(), reducer: appReducer, environment: Services())
+    
+    
     var body: some Scene {
         WindowGroup {
             SearchScreen()
+                .environmentObject(store)
         }
     }
 }
