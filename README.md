@@ -26,6 +26,7 @@ For `internal` and `private` code we should not need any documentation as most o
 | Swift Compatiblity | 5.7 |
 | --- | --- |
 
-## Code formatting
+## Redux Pattern
 
-This project uses not using any formater / lint.
+![11](https://user-images.githubusercontent.com/10117482/224531343-969395ac-9458-4a05-9cd5-835589bd1817.png)
+
